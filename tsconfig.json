@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "sourceMap": true,
+        "stripInternal": true,
+        "rootDir": "src",
+        "outDir": "lib",
+        "newLine": "LF",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "locale": "zh-cn",
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "jsx": "react"
+    },
+    "exclude": [
+        "_*",
+        ".vscode",
+        "node_modules",
+        "digofile.ts"
+    ],
+    "compileOnSave": true
+}
