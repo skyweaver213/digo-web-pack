@@ -14,8 +14,7 @@
   "author": "xuld <xuld@vip.qq.com>",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
-  "dependencies": {
-  },
+  "dependencies": {},
   "optionalDependencies": {
     "node-libs-browser": "latest"
   },
@@ -24,10 +23,11 @@
     "@types/mocha": "latest",
     "typescript": "next",
     "mocha": "latest",
-    "source-map-support": "latest"
+    "source-map-support": "latest",
+    "digo": "latest"
   },
   "scripts": {
-  	"build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
     "install": "npm run build",
     "test": ""
   }
