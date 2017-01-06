@@ -3,7 +3,19 @@
  * @author xuld <xuld@vip.qq.com>
  */
 import * as digo from "digo";
+import { Packer } from "./packer";
 
-export = function WebPack(file: digo.File, options, done: Function, srcList: digo.FileList, destList: digo.FileList) {
+export const name = "WebPack";
 
-};
+export function init(options: (list: digo.FileList, packer: Packer) => void, result: digo.FileList) {
+    const packer = new Packer();
+    result.prev.on("end", () => {
+        packer.resolve();
+    });
+    return packer;
+}
+
+export function add(file: digo.File, options: Packer, done: () => void) {
+    const module = options.createModule(file);
+    options.buildModule(module, done);
+}
