@@ -1,4 +1,5 @@
-﻿digo-web-pack
+﻿//fork for flight
+digo-web-pack
 ===========================================
 [digo](https://github.com/digojs/digo) 插件：Web 模块依赖打包。
 
