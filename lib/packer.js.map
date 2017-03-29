@@ -1,0 +1,1 @@
+{"version":3,"file":"packer.js","sourceRoot":"","sources":["../src/packer.ts"],"names":[],"mappings":";;AAEA,qCAAkC;AAElC;;GAEG;AACH;IAII;;OAEG;IACH,YAAY,CAAC,IAAe;QACxB,MAAM,MAAM,GAAG,IAAI,eAAM,EAAE,CAAC;QAE5B,MAAM,CAAC,MAAM,CAAC;IAClB,CAAC;IAED;;;;OAIG;IACH,WAAW,CAAC,MAAc,EAAE,IAAgB;IAE5C,CAAC;CAEJ;AAtBD,wBAsBC"}
